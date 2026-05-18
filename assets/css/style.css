@@ -1151,6 +1151,12 @@ footer {
   display: grid; grid-template-columns: repeat(2,1fr); gap: 2rem;
   margin-top: 3rem;
 }
+.case-list-section.scroll-fade,
+.case-list-section .scroll-fade {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
 .case-card-full {
   background: white; border-radius: 16px; overflow: hidden;
   border: 1px solid var(--border); transition: all 0.3s;
